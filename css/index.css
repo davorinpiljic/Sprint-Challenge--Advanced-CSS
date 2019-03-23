@@ -1,3 +1,11 @@
+@keyframes changeBackground {
+  from {
+    background-color: white;
+  }
+  from {
+    background-color: orange;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -207,6 +215,9 @@ html {
   font-size: 62.5%;
 }
 /* =10px */
+.home {
+  -webkit-animation: changeBackground 5s infinite;
+}
 .home .intro img {
   border-radius: 20px;
 }
