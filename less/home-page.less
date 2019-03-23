@@ -63,13 +63,9 @@ html { font-size: 62.5%; }  /* =10px */
       }
 
       .btn {
-        background-color: @btn-bg-color;
-        width: 20%;
+        .buttonStyle(@btn-bg-color; 20%; @porcelain; 1.25rem; 3px);
         text-align: center;
-        color: @porcelain;
-        font-size: 1.25rem;
         font-weight: bold;
-        padding: 5px;
         border-radius: 3px;
       }
     }

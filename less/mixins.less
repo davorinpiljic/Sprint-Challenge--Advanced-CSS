@@ -1,1 +1,20 @@
 // Mixins Here
+  .buttonStyle(@backgroundColor; @width; @color; @fontSize; @pad) {
+      background-color: @backgroundColor;
+      width: @width;
+      color: @color;
+      font-size: @fontSize;
+      padding: @pad;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200%;
+  margin-left: -50%;
+  background-color: @wild-sand;
+  .navStyle(@display; @direction; @backgroundColor){
+      display: @display;
+      flex-direction: @direction;
+      background-color: @backgroundColor;
+  }
