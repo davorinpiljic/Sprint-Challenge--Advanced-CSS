@@ -75,7 +75,12 @@ I love grouping a lot of properties in a mixin
 and quickly applying it to a selector. Nesting
 allows me to style 'in-place' without jumping
 all over a messy css file. They are my two
-favorite features.
+favorite features. 
+
+Adding animations with a mixin gives me some trouble.
+I was successfull in applying a mixin animation
+in the sprint challenge, but it's not totally
+clear.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
