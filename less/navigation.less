@@ -1,11 +1,15 @@
 // Navigation code here
 .navigation {
-    .navStyle(flex; column; @wild-sand)
     align-items: center;
     width: 200%;
     margin-left: -50%;
+    background-color: @wild-sand;
+    .navStyle(flex; column);
 
-
+    @media @phone {
+        width: 100%;
+        margin-left: 0%;
+    }
 
     h1 {
         font-size: 4rem;
@@ -26,6 +30,5 @@
     a {
         text-decoration: none;
         color: black;
-
     }
 }
